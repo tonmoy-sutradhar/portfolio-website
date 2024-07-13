@@ -1,0 +1,227 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* Primary text(shared style) */
+.secondary-bg {
+  background-color: #fff8f3;
+}
+
+.text-primary {
+  color: #fd6e0a;
+}
+
+.btn-primary {
+  background-color: #fd6e0a;
+  font-weight: bold;
+  color: #ffffff;
+  border: none;
+  padding: 18px 35px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+/* main er vitore section title(About me) */
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+
+.section-description {
+  font-size: 15px;
+  color: #757575;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.dark-2 {
+  color: #474747;
+}
+
+/* Header  */
+.header {
+  background-image: url(../images/developer.png), url(../images/header_bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  margin-bottom: 60px;
+  /* width: 100%; */
+  /* border: 2px solid red; */
+}
+
+/* Nav style */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px, 100px;
+  padding: 0px 0px 0px 85px;
+  /* border: 2px solid red; */
+}
+
+.nav-title {
+  font-weight: 800px;
+  font-size: 40px;
+  margin-left: 30px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+/* Banner style */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 200px;
+  /* border: 2px solid red; */
+}
+
+.banner-content {
+  max-width: 580px;
+  /* border: 2px solid red; */
+}
+.banner-content h1 {
+  font-size: 40px;
+}
+.banner-content p {
+  margin-bottom: 45px;
+  /* border: 2px solid red; */
+}
+
+.banner-greetings {
+  font-size: 35px;
+  font-weight: 600;
+  /* border: 2px solid red; */
+}
+
+.banner-title {
+  font-weight: bold;
+  font-size: 85px;
+}
+
+.banner-profile-pic {
+  width: 580px;
+}
+
+/* Main styles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+main-section {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+/* About styles */
+.about {
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  /* margin-top: 130px; */
+  /* border: 2px solid red; */
+}
+
+.about-items {
+  display: flex;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+}
+
+.item-description {
+  font-weight: 600px;
+  /* border: 2px solid red; */
+}
+
+/* Skills section styles */
+.skills-container {
+  display: flex;
+  gap: 40px;
+  /* margin-bottom: 50px; */
+  /* border: 2px solid red; */
+}
+
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.6);
+  /* border: 2px solid red; */
+}
+
+/* Resume section style  */
+.resume-container {
+  display: flex;
+  gap: 24px;
+  /* border: 2px solid red; */
+}
+
+.experience-sub-title {
+  font-size: 20px;
+  font-weight: 600px;
+  margin-bottom: 20px;
+  /* border: 2px solid red; */
+}
+
+.experience-description .experience-sub-title {
+  color: #757575;
+  /* border: 2px solid red; */
+}
+.resume {
+  /* border: 2px solid rgb(7, 41, 234); */
+  margin-top: 80px;
+}
+
+.resume hr {
+  margin: 30px 5px;
+  /* border: 2px solid red; */
+}
+
+.resume-download-cv {
+  margin-top: 50px;
+}
+
+/* Footer section style */
+footer {
+  display: flex;
+  padding: 130px 230px;
+  gap: 100px;
+}
+
+.footer-column {
+  width: 50%;
+}
+.secondary-bg {
+  margin-top: 55px;
+  /* border: 2px solid red; */
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+}
