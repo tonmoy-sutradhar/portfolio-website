@@ -22,6 +22,7 @@
   padding: 18px 35px;
   font-size: 20px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 /* main er vitore section title(About me) */
@@ -39,9 +40,12 @@
 .text-center {
   text-align: center;
 }
+.dark-1 {
+  color: #474747;
+}
 
 .dark-2 {
-  color: #474747;
+  color: blue;
 }
 
 /* Header  */
